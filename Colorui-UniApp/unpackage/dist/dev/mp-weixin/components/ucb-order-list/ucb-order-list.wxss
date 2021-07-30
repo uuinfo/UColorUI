@@ -1,0 +1,10 @@
+
+.cu-card.order .cu-item .content{
+	width: 570rpx;
+	margin-left: 20rpx;
+}
+.divider{
+	height: 20rpx;
+	background-color: #f0f0f0;
+}
+

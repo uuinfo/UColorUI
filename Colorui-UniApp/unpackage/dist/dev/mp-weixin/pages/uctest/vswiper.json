@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "uc-news-swiper": "/components/uc-news-swiper/uc-news-swiper"
+  }
+}

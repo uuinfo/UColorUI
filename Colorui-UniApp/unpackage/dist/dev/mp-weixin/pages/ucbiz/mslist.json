@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ubiz-ms-list": "/components/ubiz-ms-list/ubiz-ms-list"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ucb-order-list": "/components/ucb-order-list/ucb-order-list"
+  }
+}

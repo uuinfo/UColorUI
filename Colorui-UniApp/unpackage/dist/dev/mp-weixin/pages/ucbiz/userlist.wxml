@@ -1,0 +1,1 @@
+<view><cu-custom vue-id="2552855a-1" bgColor="bg-gradual-blue" isBack="{{true}}" bind:__l="__l" vue-slots="{{['backText','content']}}"><view slot="backText">返回</view><view slot="content">用户列表</view></cu-custom><ucb-user-list vue-id="2552855a-2" userlist="{{userlist}}" bind:__l="__l"></ucb-user-list></view>

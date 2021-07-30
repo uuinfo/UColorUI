@@ -1,0 +1,1 @@
+<view><uc-post-news vue-id="5f23700d-1" btnColor="bg-blue" bind:__l="__l"></uc-post-news></view>

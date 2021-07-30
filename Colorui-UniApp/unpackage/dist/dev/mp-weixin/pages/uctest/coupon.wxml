@@ -1,0 +1,1 @@
+<view><cu-custom vue-id="397c47ba-1" bgColor="bg-gradual-blue" isBack="{{true}}" bind:__l="__l" vue-slots="{{['backText','content']}}"><view slot="backText">返回</view><view slot="content">优惠券</view></cu-custom><uc-coupon vue-id="397c47ba-2" cpLsit="{{cpList}}" bind:__l="__l"></uc-coupon></view>

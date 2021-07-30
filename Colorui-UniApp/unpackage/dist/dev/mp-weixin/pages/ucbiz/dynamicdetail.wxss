@@ -1,0 +1,55 @@
+
+.cu-custom .cu-avatar {
+	position: absolute;
+	left: 80rpx;
+	margin-top: 5px;
+}
+.swiper-tag {
+	position: relative;
+	height: 0;
+}
+.swiper-tag .cu-tag.bg-white {
+	position: absolute;
+	z-index: 100;
+	bottom: 15px;
+	right: 15px;
+}
+.goods-content image {
+	max-width: 100%;
+	display: block;
+	min-height: 100px;
+	background-color: #FFFFFF;
+}
+.cu-list.comment .cu-item::after {
+	border: none;
+}
+.cu-card.goods.no-card>.cu-item>image {
+	width: 200rpx;
+	height: 200rpx;
+}
+.findCard {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		padding: 0 10rpx;
+}
+.findCard .cu-card {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+}
+.findCard .cu-card.goods .cu-item {
+		margin: 20rpx 10rpx !important;
+}
+.findCard .cu-card.goods.col-goods>.cu-item .content {
+		padding: 10rpx 15rpx;
+}
+.findCard .cu-card.goods.col-goods>.cu-item .content .title {
+		font-size: 24rpx;
+		font-weight: 300;
+}
+.findCard .cu-card.goods.col-goods>.cu-item .flex .text-cut {
+		width: 150rpx;
+		margin-left: 10rpx;
+}
+

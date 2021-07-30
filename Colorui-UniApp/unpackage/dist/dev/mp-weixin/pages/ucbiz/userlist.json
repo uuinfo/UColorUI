@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ucb-user-list": "/components/ucb-user-list/ucb-user-list"
+  }
+}

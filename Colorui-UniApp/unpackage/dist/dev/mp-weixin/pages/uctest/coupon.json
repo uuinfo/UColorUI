@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "uc-coupon": "/components/uc-coupon/uc-coupon"
+  }
+}

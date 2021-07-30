@@ -1,0 +1,27 @@
+
+.findCard {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		padding: 0 10rpx;
+}
+.findCard .cu-card {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+}
+.findCard .cu-card.goods .cu-item {
+		margin: 20rpx 10rpx !important;
+}
+.findCard .cu-card.goods.col-goods>.cu-item .content {
+		padding: 10rpx 15rpx;
+}
+.findCard .cu-card.goods.col-goods>.cu-item .content .title {
+		font-size: 24rpx;
+		font-weight: 300;
+}
+.findCard .cu-card.goods.col-goods>.cu-item .flex .text-cut {
+		width: 150rpx;
+		margin-left: 10rpx;
+}
+
