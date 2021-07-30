@@ -1,1 +1,0 @@
-<view><cu-custom vue-id="9b5f8564-1" bgColor="bg-gradual-blue" isBack="{{true}}" bind:__l="__l" vue-slots="{{['backText','content']}}"><view slot="backText">返回</view><view slot="content">新闻轮播</view></cu-custom><uc-news-swiper vue-id="9b5f8564-2" zixun="{{zixun}}" bind:__l="__l"></uc-news-swiper></view>
