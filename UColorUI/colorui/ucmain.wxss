@@ -1,0 +1,8 @@
+.padding-b-115{
+  padding-bottom:115rpx;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 99;
+}

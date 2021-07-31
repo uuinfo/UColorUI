@@ -1,0 +1,203 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/layout",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/background",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/text",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/icon",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/button",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/design",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/tag",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/avatar",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/progress",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/shadow",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/loading",
+			"style": {}
+		},
+		{
+			"path": "pages/component/bar",
+			"style": {}
+		},
+		{
+			"path": "pages/component/nav",
+			"style": {}
+		},
+		{
+			"path": "pages/component/list",
+			"style": {}
+		},
+		{
+			"path": "pages/component/card",
+			"style": {}
+		},
+		{
+			"path": "pages/component/form",
+			"style": {}
+		},
+		{
+			"path": "pages/component/timeline",
+			"style": {}
+		},
+		{
+			"path": "pages/component/chat",
+			"style": {}
+		},
+		{
+			"path": "pages/component/swiper",
+			"style": {}
+		},
+		{
+			"path": "pages/component/modal",
+			"style": {}
+		},
+		{
+			"path": "pages/component/steps",
+			"style": {}
+		}, {
+			"path": "pages/plugin/indexes",
+			"style": {}
+		}, {
+			"path": "pages/plugin/animation",
+			"style": {}
+		}, {
+			"path": "pages/plugin/drawer",
+			"style": {}
+		}, {
+			"path": "pages/plugin/verticalnav",
+			"style": {}
+		}, {
+			"path": "pages/uctest/home",
+			"style": {}		
+		}, {
+			"path": "pages/uctest/progress1",
+			"style": {}		
+		}
+	    ,{
+            "path" : "pages/uctest/vswiper",
+            "style" : {}
+        },{
+            "path" : "pages/uctest/miaosha",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ucbiz/mslist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ucbiz/goodslist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ucbiz/dynamiclist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ucbiz/dynamicdetail",
+            "style" : {}
+        }
+		,{
+		    "path" : "pages/ucbiz/home",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/uctest/dynamichome",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/uctest/postnews",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ucbiz/orderitem",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/uctest/swiperitem",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/uctest/coupon",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ucbiz/userlist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ucbiz/address",
+            "style" : {}
+        },
+		{
+			"path":"colorui/ucBiz/ucb-addressList/edit",
+			"style":{}
+		}
+        ,{
+            "path" : "pages/ucbiz/test",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true,
+	"condition": { //模式配置，仅开发期间生效
+	"current": 0, //当前激活的模式(list 的索引项)
+	"list": [{
+			"name": "首页", //模式名称
+			"path": "pages/index/index", //启动页面
+			"query": "" //启动参数
+		}
+	]
+	},
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+		 "^uc-(.*)": "@/colorui/ucComponents/uc-$1/uc-$1.vue",
+		 "^ucb-(.*)": "@/colorui/ucBiz/ucb-$1/ucb-$1.vue"
+	  }
+	}
+
+}
